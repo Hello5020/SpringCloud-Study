@@ -6,13 +6,8 @@ spring:
     username: root
     password: gzy
     driver-class-name: com.mysql.jdbc.Driver
-  application:
-    name: userservice
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
-        cluster-name: WX # 集群名称
+#      discovery:
+#        cluster-name: WX # 集群名称
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:

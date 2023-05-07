@@ -12,8 +12,9 @@ spring:
     nacos:
       server-addr: localhost:8848
       discovery:
-        cluster-name: NJ
-        namespace: d134888a-6ea2-4e0c-a858-6a9db9e88933 # dev环境
+#        cluster-name: NJ
+#        namespace: d134888a-6ea2-4e0c-a858-6a9db9e88933 # dev环境
+         ephemeral: false # 是否是临时实例
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
